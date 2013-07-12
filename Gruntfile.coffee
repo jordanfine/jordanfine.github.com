@@ -18,7 +18,7 @@ module.exports = (grunt) ->
 
 		watch:
 			site: 
-				files: ['assets/scripts/portfolio.coffee', 'assets/styles/portfolio.styl']
+				files: ['assets/scripts/portfolio.coffee', 'assets/styles/portfolio.styl', 'index.jade']
 				tasks: ['build_site']
 
 	grunt.loadNpmTasks('grunt-contrib-coffee')
@@ -27,4 +27,4 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks('grunt-contrib-jade')
 
 	grunt.registerTask('default', ['coffee', 'stylus', 'jade'])
-	grunt.registerTask('build_site', ['coffee:site', 'stylus:site'])
+	grunt.registerTask('build_site', ['coffee:site', 'stylus:site', 'jade:compile'])
