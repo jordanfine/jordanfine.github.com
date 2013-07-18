@@ -1,0 +1,28 @@
+.l-header
+	clearfix()
+	height: $header-height
+	background: $gray
+	position: relative
+	z-index: 999
+
+.l-header__inner
+	@extend .fluid-container
+	padding: 2px
+	color: $white
+
+	.brand
+		float: left
+		margin-right: 25px
+		margin-left: 20px
+
+	.nav 
+		float: right
+		margin-right: 20px
+
+		ul
+			list-style: none
+
+			li
+				float: left
+				padding: 0 20px
+

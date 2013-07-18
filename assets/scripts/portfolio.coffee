@@ -1,1 +1,1 @@
-console.log "hello world"
+$("#splash").backstretch "public/img/profile.jpg"
