@@ -59,6 +59,11 @@ column(x, columns = columns)
 offset(offset = 1)
 	margin-left total-width*(((gutter-width+column-width)*offset + (gutter-width*0.5))/_gridsystem-width)
 
+.fixed-container
+	width: total-width
+	margin: 0 auto
+	overflow: hidden
+
 .fluid-container
 	min-width: total-width
 	max-width: total-width + 200px
