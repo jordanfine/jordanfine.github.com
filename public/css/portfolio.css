@@ -116,7 +116,7 @@ footer h3{font-weight:200}
 .l-portfolio--title{display:inline;float:left;overflow:hidden;width:940px;margin:0 10px;*width:940px -correction;*margin:0 10px -correction;}
 .l-portfolio--title h1{color:#fff;font-size:4em;font-weight:600;}
 .l-portfolio--title h1 span{font-weight:200}
-.l-portfolio--gatherimage{display:inline;float:left;overflow:hidden;width:420px;margin:0 10px;*width:420px -correction;*margin:0 10px -correction;*zoom:1;height:100%;position:absolute;overflow:hidden;top:0;left:0;-webkit-transform:translate3d(0,1700px,-10px);-moz-transform:translate3d(0,1700px,-10px);-o-transform:translate3d(0,1700px,-10px);-ms-transform:translate3d(0,1700px,-10px);transform:translate3d(0,1700px,-10px);margin:0;}
+.l-portfolio--gatherimage{display:inline;float:left;overflow:hidden;width:420px;margin:0 10px;*width:420px -correction;*margin:0 10px -correction;*zoom:1;height:800px;position:absolute;overflow:hidden;top:0;left:0;-webkit-transform:translate3d(0,1700px,-10px);-moz-transform:translate3d(0,1700px,-10px);-o-transform:translate3d(0,1700px,-10px);-ms-transform:translate3d(0,1700px,-10px);transform:translate3d(0,1700px,-10px);margin:0;}
 .l-portfolio--gatherimage:before,.l-portfolio--gatherimage:after{content:"";display:table}
 .l-portfolio--gatherimage:after{clear:both}
 .l-portfolio--gatherimage .image{-webkit-transform:translate3d(700px,100px,0);-moz-transform:translate3d(700px,100px,0);-o-transform:translate3d(700px,100px,0);-ms-transform:translate3d(700px,100px,0);transform:translate3d(700px,100px,0);position:absolute}
@@ -126,7 +126,7 @@ footer h3{font-weight:200}
 .l-portfolio--gather h1{font-size:4em;font-weight:600;}
 .l-portfolio--gather h1 span{font-weight:200}
 .l-portfolio--gather p{font-weight:300}
-.l-portfolio--hciimage{display:inline;float:left;overflow:hidden;width:420px;margin:0 10px;*width:420px -correction;*margin:0 10px -correction;*zoom:1;height:100%;position:absolute;overflow:hidden;top:0;left:0;-webkit-transform:translate3d(0,2300px,-10px);-moz-transform:translate3d(0,2300px,-10px);-o-transform:translate3d(0,2300px,-10px);-ms-transform:translate3d(0,2300px,-10px);transform:translate3d(0,2300px,-10px);margin:0;}
+.l-portfolio--hciimage{display:inline;float:left;overflow:hidden;width:420px;margin:0 10px;*width:420px -correction;*margin:0 10px -correction;*zoom:1;height:800px;position:absolute;overflow:hidden;top:0;left:0;-webkit-transform:translate3d(0,2300px,-10px);-moz-transform:translate3d(0,2300px,-10px);-o-transform:translate3d(0,2300px,-10px);-ms-transform:translate3d(0,2300px,-10px);transform:translate3d(0,2300px,-10px);margin:0;}
 .l-portfolio--hciimage:before,.l-portfolio--hciimage:after{content:"";display:table}
 .l-portfolio--hciimage:after{clear:both}
 .l-portfolio--hciimage .image{-webkit-transform:translate3d(-200px,100px,0);-moz-transform:translate3d(-200px,100px,0);-o-transform:translate3d(-200px,100px,0);-ms-transform:translate3d(-200px,100px,0);transform:translate3d(-200px,100px,0);position:absolute}
