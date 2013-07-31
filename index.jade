@@ -11,7 +11,8 @@ html
 
 
 	body
-		span.l-top.hide UP
+		span.l-top.hide
+			i.icon-arrow-up
 		section.l-splash
 			.wrapper
 				.l-splash--nav
@@ -24,13 +25,12 @@ html
 							li 
 								a#header-portfolio(href="#") Portfolio
 							li 
-								a#header-resume(href="#") Resume
+								a#header-resume(href="#") R&eacute;sum&eacute;
 							li 
 								a#header-connect(href="#") Connect
 				.l-splash--tagline
 					.profile
 						.profile--image
-							span Hello Pug!
 					.tagline
 						h1 I'm a front end web developer with a passion for design.
 						button#learn-more.btn.btn--primary Learn More
@@ -72,14 +72,119 @@ html
 			.wrapper
 				.l-resume--title-bar
 					.l-resume--title
-						h1 Resume
+						h1 R&eacute;sum&eacute; 
 					.l-resume--download
-						button.btn.btn--primary Download
-				.l-resume--first-column
+						button.btn.btn--primary 
+							i.icon-download 
+							| Download
+				.l-resume--column
 					.l-resume--education
-
+						h1 Education
+						h4
+							span.major BS in Digital Arts &amp; Sciences Engineering 
+							br
+							span.minor Minor in Mass Communications
+							br
+							|	University of Florida | Gainesville, FL
+							br
+							|	2010 - Present
+					.l-resume--tech
+						h1 Tech Experience
+						h4
+							span Front End Developer
+							br
+							|	Gather | Atlanta, GA
+							br
+							|	May 2013 - August 2013
+						h4
+							span Web Developer
+							br
+							|	Department of Facilites Planning &amp; Construction | Gainesville, FL
+							br
+							|	November 2012 - Present
+						h4
+							span Software Developer Intern
+							br
+							|	SpareFoot.com | Austin,TX
+							br
+							|	May 2012 - August 2012
+					.l-resume--design
+						h1 Design Experience
+						h4
+							span Lead Marketing Designer
+							br
+							|	RUB Entertainment | Gainesville, FL
+							br
+							|	May 2013 - Present
+						h4
+							span Graphic Designer for Special Events Committee
+							br
+							|	RUB Entertainment | Gainesville, FL
+							br
+							|	August 2011 - May 2012
+				.l-resume--column
+					.l-resume--leadership
+						h1 Leadership Experience
+						h4
+							span Director of Arts Committee
+							br
+							|	RUB Entertainment | Gainesville, FL
+							br
+							|	May 2012 - May 2013
+						h4
+							span Residential Counselor 
+							br
+							|	Duke TIP Summer Studies Program | Boone, NC
+							br
+							|	June 2011 - August 2011
+					.l-resume--skills
+						h1 Skills
+						p.
+							HTML, CSS, Javascript, PHP, Java, JQuery, Coffeescript, SASS, Stylus, Jade, Grunt, Digital Photography, Adobe Illustrator, 
+							Adobe Photoshop, Adobe Premiere Pro, Adobe InDesign, Autodesk Maya, Microsoft Office, Event Planning, Trumpet
+					.l-resume--projects
+						h1 Current Projects
+						h4
+							span Playing with some APIs
+							br
+							|	More to be announced
+							
 		section.l-connect
 			.wrapper
+				.l-connect--title
+					h1 Let's Connect!
+				.l-connect--links
+					ul
+						li
+							a(href="http://www.twitter.com/jordanfine", target="_blank")
+								i.icon-twitter
+						li
+							a(href="http://www.facebook.com/jordanfine6", target="_blank")
+								i.icon-facebook
+						li
+							a(href="http://plus.google.com/111254828812712058992", target="_blank")
+								i.icon-google-plus
+						li
+							a(href="http://www.linkedin.com/in/jordanfine", target="_blank")
+								i.icon-linkedin
+						li
+							a(href="http://github.com/jordanfine", target="_blank")
+								i.icon-github
+						li
+							a(href="http://www.last.fm/user/jordanspudfine", target="_blank")
+								i.icon-lastfm
+						li
+							a(href="http://foursquare.com/jordanfine", target="_blank")
+								i.icon-foursquare
+						li
+							a(href="mailto:jordan6fine@gmail.com?subject=Hey Jordan&body=Cool website!")
+								i.icon-mail
+		footer
+			.wrapper
+				.footer-madein
+					h3 Made with <3 in the USA
+				.footer-brand
+					h3 Jordan Fine, 2013
 
 		script(type='text/javascript', src="public/vendor/v2.0.4/backstretch.js")
 		script(type='text/javascript', src="public/js/portfolio.js")
