@@ -1,9 +1,9 @@
 (function() {
-  var resize_top_image, threshold;
+  var resize_page, threshold;
 
   $(function() {
-    resize_top_image();
-    $(window).on("resize", resize_top_image);
+    resize_page();
+    $(window).on("resize", resize_page);
     $("#header-about").on("click", function(e) {
       var divY;
       e.preventDefault();
@@ -36,7 +36,7 @@
         scrollTop: divY
       }, 500);
     });
-    return $("#header-connect").on("click", function(e) {
+    $("#header-connect").on("click", function(e) {
       var divY;
       e.preventDefault();
       divY = $(".l-connect").position().top;
@@ -44,23 +44,29 @@
         scrollTop: divY
       }, 500);
     });
+    $(".l-top").on("click", function(e) {
+      e.preventDefault();
+      return $("html,body").animate({
+        scrollTop: 0
+      }, 500);
+    });
+    return $(window).on("scroll", function() {
+      if ($(this).scrollTop() >= threshold) {
+        return $(".l-top").fadeIn(200, function() {
+          return $(this).removeClass("hide");
+        });
+      } else {
+        return $(".l-top").fadeOut(200, function() {
+          return $(this).addClass("hide");
+        });
+      }
+    });
   });
-
-  /*
-  	$(window).on "scroll", ->
-  		if($(@).scrollTop() >= threshold)
-  			$(".l-header").fadeIn 500 , ->
-  				$(@).removeClass "hide"
-  		else
-  			$(".l-header").fadeOut 200, ->
-  				$(@).addClass "hide"
-  */
-
 
   threshold = 0;
 
-  resize_top_image = function() {
-    var earlyAccessHeight, finalHeight, minHeight, windowHeight;
+  resize_page = function() {
+    var earlyAccessHeight, finalHeight, minHeight, windowHeight, windowWidth;
     windowHeight = $(window).height();
     threshold = windowHeight;
     earlyAccessHeight = $(".l-splash--nav").height();
@@ -73,7 +79,10 @@
     */
 
     finalHeight = (windowHeight - earlyAccessHeight) > minHeight ? windowHeight - earlyAccessHeight : minHeight;
-    return $(".l-splash--container, .l-splash--image").height(finalHeight);
+    $(".l-splash--container, .l-splash--image").height(finalHeight);
+    console.log("images");
+    windowWidth = $(window).width();
+    return $(".l-portfolio--gatherimage, .l-portfolio--hciimage").width(windowWidth);
   };
 
 }).call(this);

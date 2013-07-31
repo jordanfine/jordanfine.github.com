@@ -1,8 +1,9 @@
 $ ->
 	##$(".l-splash--image").backstretch "public/img/profile.png"
 
-	resize_top_image()
-	$(window).on "resize", resize_top_image
+	resize_page()
+	$(window).on "resize", resize_page
+
 	$("#header-about").on "click", (e) ->
 		e.preventDefault()
 		divY = $(".l-about").position().top
@@ -27,23 +28,25 @@ $ ->
 		e.preventDefault()
 		divY = $(".l-connect").position().top
 		$("html,body").animate {scrollTop: divY}, 500
-	
-###
+
+	$(".l-top").on "click", (e) ->
+		e.preventDefault()
+		$("html,body").animate {scrollTop: 0}, 500
+
 	$(window).on "scroll", ->
 		if($(@).scrollTop() >= threshold)
-			$(".l-header").fadeIn 500 , ->
+			$(".l-top").fadeIn 200 , ->
 				$(@).removeClass "hide"
 		else
-			$(".l-header").fadeOut 200, ->
+			$(".l-top").fadeOut 200, ->
 				$(@).addClass "hide"
-###
 
 	
 
 
 threshold = 0
 
-resize_top_image = ->
+resize_page = ->
 	windowHeight = $(window).height()
 	threshold = windowHeight
 	earlyAccessHeight = $(".l-splash--nav").height()
@@ -60,3 +63,10 @@ resize_top_image = ->
 	finalHeight = if ((windowHeight - earlyAccessHeight) > minHeight) then (windowHeight - earlyAccessHeight) else minHeight
 
 	$(".l-splash--container, .l-splash--image").height(finalHeight)
+
+
+	##Resize portfolio images
+	console.log "images"
+	windowWidth = $(window).width()
+
+	$(".l-portfolio--gatherimage, .l-portfolio--hciimage").width(windowWidth)
