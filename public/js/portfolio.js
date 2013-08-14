@@ -2,7 +2,10 @@
   var resize_page, threshold;
 
   $(function() {
+    var image;
     resize_page();
+    image = new Image;
+    image.src = "public/img/profile-pug.png";
     $(window).on("resize", resize_page);
     $("#header-about").on("click", function(e) {
       var divY;

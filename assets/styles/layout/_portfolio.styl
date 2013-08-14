@@ -1,5 +1,5 @@
 .l-portfolio
-	height: 1600px
+	height: 2400px
 	background: #2980b9
 
 .l-portfolio--title
@@ -19,12 +19,16 @@
 	overflow: hidden
 	top: 0
 	left: 0
-	transform: translate3d(0px, 1700px,-10px)
+	transform: translate3d(0px, 1700px,0)
 	margin: 0 
 
 	.image
 		transform: translate3d(700px,100px,0px)
 		position: absolute
+		transition: transform 0.3s linear
+
+		&:hover
+			transform: translate3d(300px,100px,0px)
 
 
 
@@ -35,6 +39,7 @@
 	color: white
 	padding: 0 0 50px 0
 	height: 500px
+	transform: translateZ(20px)
 
 	h1
 		font-size: 4em
@@ -52,12 +57,16 @@
 	overflow: hidden
 	top: 0
 	left: 0
-	transform: translate3d(0px, 2300px,-10px)
+	transform: translate3d(0px, 2300px,0)
 	margin: 0 
 
 	.image
-		transform: translate3d(-200px,100px,0px)
+		transform: translate3d(-350px,50px,0px)
 		position: absolute
+		transition: transform 0.3s linear
+
+		&:hover
+			transform: translate3d(0px,50px,0px)
 
 .l-portfolio--hci
 	column(6.5)
@@ -65,7 +74,45 @@
 	float: right
 	color: white
 	padding: 50px 0
+	height: 600px
+
+	h1
+		font-size: 4em
+		font-weight: 600
+		span
+			font-weight: 200
+	p
+		font-weight: 300
+
+.l-portfolio--clueimage
+	column(5.5)
+	clearfix()
+	height: 800px
+	position: absolute
+	overflow: hidden
+	top: 0
+	left: 0
+	transform: translate3d(0px, 1700px,0)
+	margin: 0 
+
+	.image
+		transform: translate3d(700px,100px,0px)
+		position: absolute
+		transition: transform 0.3s linear
+
+		&:hover
+			transform: translate3d(300px,100px,0px)
+
+
+
+.l-portfolio--clue
+	column(6.5)
+	clearfix()
+	float: left
+	color: white
+	padding: 0 0 50px 0
 	height: 500px
+	transform: translateZ(20px)
 
 	h1
 		font-size: 4em

@@ -2,6 +2,11 @@ $ ->
 	##$(".l-splash--image").backstretch "public/img/profile.png"
 
 	resize_page()
+	
+	##preload image for hover
+	image = new Image
+	image.src = "public/img/profile-pug.png"
+
 	$(window).on "resize", resize_page
 
 	$("#header-about").on "click", (e) ->
