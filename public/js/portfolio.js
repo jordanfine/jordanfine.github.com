@@ -84,8 +84,7 @@
     finalHeight = (windowHeight - earlyAccessHeight) > minHeight ? windowHeight - earlyAccessHeight : minHeight;
     $(".l-splash--container, .l-splash--image").height(finalHeight);
     console.log("images");
-    windowWidth = $(window).width();
-    return $(".l-portfolio--gatherimage, .l-portfolio--hciimage").width(windowWidth);
+    return windowWidth = $(window).width();
   };
 
 }).call(this);

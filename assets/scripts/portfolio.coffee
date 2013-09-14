@@ -74,4 +74,4 @@ resize_page = ->
 	console.log "images"
 	windowWidth = $(window).width()
 
-	$(".l-portfolio--gatherimage, .l-portfolio--hciimage").width(windowWidth)
+	##$(".l-portfolio--gatherimage, .l-portfolio--hciimage").width(windowWidth)

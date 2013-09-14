@@ -1,6 +1,7 @@
 .l-portfolio
 	height: 2400px
-	background: #2980b9
+	background: $blueDark
+	width: 100%
 
 .l-portfolio--title
 	column(12)
@@ -14,66 +15,80 @@
 .l-portfolio--gatherimage
 	column(5.5)
 	clearfix()
+	float: left
 	height: 800px
-	position: absolute
+	//position: absolute
 	overflow: hidden
-	top: 0
-	left: 0
-	transform: translate3d(0px, 1700px,0)
+	//top: 0
+	//left: 0
+	//transform: translate3d(0px, 1700px,0)
 	margin: 0 
 
 	.image
-		transform: translate3d(700px,100px,0px)
-		position: absolute
-		transition: transform 0.3s linear
+		margin-top: 55px
 
-		&:hover
-			transform: translate3d(300px,100px,0px)
+	.image img 
+		width: 100%
+	// 	transform: translate3d(700px,100px,0px)
+	// 	position: absolute
+	// 	transition: transform 0.3s linear
 
+	// 	&:hover
+	// 		transform: translate3d(300px,100px,0px)
 
+.l-portfolio--media
+	@extend .fluid-container
+	clearfix()
+	height: 500px
+
+	h1
+		font-size: 4em
+		font-weight: 600
+		margin-top: 0
+		span
+			font-weight: 200
+	p
+		font-weight: 300
+		padding-right: 50px
 
 .l-portfolio--gather
 	column(6.5)
 	clearfix()
 	float: left
 	color: white
-	padding: 0 0 50px 0
+	padding: 50px 0 50px 0
 	height: 500px
-	transform: translateZ(20px)
 
-	h1
-		font-size: 4em
-		font-weight: 600
-		span
-			font-weight: 200
-	p
-		font-weight: 300
+
 
 .l-portfolio--hciimage
 	column(5.5)
 	clearfix()
 	height: 800px
-	position: absolute
+	//position: absolute
 	overflow: hidden
-	top: 0
-	left: 0
-	transform: translate3d(0px, 2300px,0)
+	//top: 0
+	//left: 0
+	//transform: translate3d(0px, 2300px,0)
 	margin: 0 
 
-	.image
-		transform: translate3d(-350px,50px,0px)
-		position: absolute
-		transition: transform 0.3s linear
+	
+	.image img
+		width: 100%
 
-		&:hover
-			transform: translate3d(0px,50px,0px)
+	//	transform: translate3d(-350px,50px,0px)
+	//	position: absolute
+	//	transition: transform 0.3s linear
+
+	//	&:hover
+	//		transform: translate3d(0px,50px,0px)
 
 .l-portfolio--hci
 	column(6.5)
 	clearfix()
 	float: right
 	color: white
-	padding: 50px 0
+	padding: 10px 0
 	height: 600px
 
 	h1
@@ -88,20 +103,20 @@
 	column(5.5)
 	clearfix()
 	height: 800px
-	position: absolute
-	overflow: hidden
-	top: 0
-	left: 0
-	transform: translate3d(0px, 1700px,0)
+	//position: absolute
+	//overflow: hidden
+	//top: 0
+	//left: 0
+	//transform: translate3d(0px, 1700px,0)
 	margin: 0 
 
 	.image
-		transform: translate3d(700px,100px,0px)
-		position: absolute
-		transition: transform 0.3s linear
+		//transform: translate3d(700px,100px,0px)
+		//position: absolute
+		//transition: transform 0.3s linear
 
-		&:hover
-			transform: translate3d(300px,100px,0px)
+		//&:hover
+		//	transform: translate3d(300px,100px,0px)
 
 
 
