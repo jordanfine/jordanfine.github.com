@@ -16,7 +16,8 @@ button-style($base-color, $font-color)
     border-bottom: 4px solid #d94738
  
   &:active, &.active
-    border-top: 4px solid #d94738
+    margin-top: 4px
+    padding-bottom: 0px
     border-bottom: 4px solid transparent
     background-color: $base-color
     background: $base-color
@@ -29,12 +30,23 @@ button-style($base-color, $font-color)
   &:disabled, &.disabled
     opacity: 0.5
 
+minimal( $bordercolor )
+  border: 1px solid $bordercolor
+  color: $bordercolor
+  background: transparent
+  padding: 7px 12px
+  &:hover, &:focus, &.disabled
+    color: darken($bordercolor, 0.1)
+    background: rgba($white, 0.1)
+
+
+
 .btn
   display: inline-block
   box-sizing: border-box
   padding: 4px 12px
   margin-bottom: 0
-  font-size: 18px
+  font-size: 14px
   line-height: 2.2
   text-align: center
   vertical-align: middle
@@ -42,7 +54,7 @@ button-style($base-color, $font-color)
   text-transform: uppercase
   border-radius: 4px
   font-weight: 300
-  button-style($btn-default-background, $black)
+  margin: 0 10px 0 0
 
   &, &:hover
     text-decoration: none
@@ -52,3 +64,5 @@ button-style($base-color, $font-color)
 
 .btn--primary
   button-style(#e74c3c, $white)
+.btn--secondary
+  minimal($gray)

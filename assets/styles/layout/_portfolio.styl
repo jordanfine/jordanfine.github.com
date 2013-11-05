@@ -1,5 +1,5 @@
 .l-portfolio
-	height: 2400px
+	padding: 50px 0
 	background: $blueDark
 	width: 100%
 
@@ -12,11 +12,10 @@
 		span
 			font-weight: 200
 
-.l-portfolio--gatherimage
+.l-portfolio--rightimage
 	column(5.5)
 	clearfix()
 	float: left
-	height: 800px
 	//position: absolute
 	overflow: hidden
 	//top: 0
@@ -25,7 +24,7 @@
 	margin: 0 
 
 	.image
-		margin-top: 55px
+		margin-top: 0px
 
 	.image img 
 		width: 100%
@@ -39,7 +38,7 @@
 .l-portfolio--media
 	@extend .fluid-container
 	clearfix()
-	height: 500px
+	padding: 50px 0
 
 	h1
 		font-size: 4em
@@ -49,22 +48,34 @@
 			font-weight: 200
 	p
 		font-weight: 300
-		padding-right: 50px
 
-.l-portfolio--gather
+.l-portfolio--right
 	column(6.5)
 	clearfix()
 	float: left
 	color: white
-	padding: 50px 0 50px 0
-	height: 500px
+
+	p
+		margin-right: 50px
+
+.l-portfolio--center
+	column(12)
+	clearfix()
+	margin: 0 auto
+	color: white
+	text-align: center
+
+	h1
+		font-size: 4em
+		font-weight: 200
+	p
+		margin: 15px
 
 
 
-.l-portfolio--hciimage
+.l-portfolio--leftimage
 	column(5.5)
 	clearfix()
-	height: 800px
 	//position: absolute
 	overflow: hidden
 	//top: 0
@@ -83,13 +94,13 @@
 	//	&:hover
 	//		transform: translate3d(0px,50px,0px)
 
-.l-portfolio--hci
+.l-portfolio--left
 	column(6.5)
 	clearfix()
+	margin: -5px
 	float: right
 	color: white
-	padding: 10px 0
-	height: 600px
+	padding: 0
 
 	h1
 		font-size: 4em
@@ -98,6 +109,7 @@
 			font-weight: 200
 	p
 		font-weight: 300
+		margin-right: 25px
 
 .l-portfolio--clueimage
 	column(5.5)
@@ -126,7 +138,6 @@
 	float: left
 	color: white
 	padding: 0 0 50px 0
-	height: 500px
 	transform: translateZ(20px)
 
 	h1

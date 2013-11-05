@@ -53,31 +53,56 @@ html
 					.l-portfolio--title
 						h1 Portfolio
 					.l-portfolio--media
-						.l-portfolio--gather
+						.l-portfolio--right
 							h1  
 								span Gather
 							p Mustache you probably haven't heard of them ennui messenger bag leggings salvia, authentic cardigan. Portland shabby chic PBR salvia mlkshk pug lo-fi. Tattooed aesthetic High Life chia gluten-free, tofu Wes Anderson wayfarers flexitarian pork belly pour-over Banksy street art. Farm-to-table Marfa fingerstache, Etsy +1 organic squid Thundercats Neutra yr. Chia skateboard lomo next level leggings YOLO. Cornhole sartorial church-key pour-over fixie, VHS Shoreditch four loko jean shorts. Viral umami Marfa chillwave.
-							button.btn.btn--primary Learn More
-						.l-portfolio--gatherimage
+							a.btn.btn--primary(href="http://www.gatherhere.com", target="_blank") Visit Gather
+						.l-portfolio--rightimage
 							.image
 								img(src="public/img/gather-transaction.png")
 					.l-portfolio--media
-						.l-portfolio--hciimage
+						.l-portfolio--leftimage
 							.image
 								img(src="public/img/mapflix.png")
-						.l-portfolio--hci
+						.l-portfolio--left
 							h1  
 								span MapFlix
 							p Mustache you probably haven't heard of them ennui messenger bag leggings salvia, authentic cardigan. Portland shabby chic PBR salvia mlkshk pug lo-fi. Tattooed aesthetic High Life chia gluten-free, tofu Wes Anderson wayfarers flexitarian pork belly pour-over Banksy street art. Farm-to-table Marfa fingerstache, Etsy +1 organic squid Thundercats Neutra yr. Chia skateboard lomo next level leggings YOLO. Cornhole sartorial church-key pour-over fixie, VHS Shoreditch four loko jean shorts. Viral umami Marfa chillwave.
-							button.btn.btn--primary Learn More
-					.l-portfolio--clue
-						h1  
-							span Clue
-						p As Front End Developer at Gather, I worked on the full process of mockup to implementation. 
-						button.btn.btn--primary Learn More
-					.l-portfolio--clueimage
-						.image
-							img(src="public/img/gather-transaction.png")
+							a.btn.btn--primary(href="http://www.hellopug.com/netflix", target="_blank") Visit MapFlix
+							a.btn.btn--secondary(href="public/files/jordanfine.ppt", target="_top") View Final Presentation
+					.l-portfolio--media
+						.l-portfolio--right
+							h1  
+								span Clue
+							p Mustache you probably haven't heard of them ennui messenger bag leggings salvia, authentic cardigan. Portland shabby chic PBR salvia mlkshk pug lo-fi. Tattooed aesthetic High Life chia gluten-free, tofu Wes Anderson wayfarers flexitarian pork belly pour-over Banksy street art. Farm-to-table Marfa fingerstache, Etsy +1 organic squid Thundercats Neutra yr. Chia skateboard lomo next level leggings YOLO. Cornhole sartorial church-key pour-over fixie, VHS Shoreditch four loko jean shorts. Viral umami Marfa chillwave.
+							a.btn.btn--primary(href="https://github.com/jordanfine/clue", target="_top") View on Github
+							a.btn.btn--secondary(href="public/files/manual.pdf", target="_top") View User Manual
+						.l-portfolio--rightimage
+							.image
+								img(src="public/img/gather-transaction.png")
+					.l-portfolio--media
+						.l-portfolio--leftimage
+							.image
+								img(src="public/img/da.png")
+						.l-portfolio--left
+							h1  
+								span Damage Assessment Portal
+							p Mustache you probably haven't heard of them ennui messenger bag leggings salvia, authentic cardigan. Portland shabby chic PBR salvia mlkshk pug lo-fi. Tattooed aesthetic High Life chia gluten-free, tofu Wes Anderson wayfarers flexitarian pork belly pour-over Banksy street art. Farm-to-table Marfa fingerstache, Etsy +1 organic squid Thundercats Neutra yr. Chia skateboard lomo next level leggings YOLO. Cornhole sartorial church-key pour-over fixie, VHS Shoreditch four loko jean shorts. Viral umami Marfa chillwave.
+					.l-portfolio--media
+						.l-portfolio--right
+							h1  
+								span Fruitvale Station
+							p Mustache you probably haven't heard of them ennui messenger bag leggings salvia, authentic cardigan. Portland shabby chic PBR salvia mlkshk pug lo-fi. Tattooed aesthetic High Life chia gluten-free, tofu Wes Anderson wayfarers flexitarian pork belly pour-over Banksy street art. Farm-to-table Marfa fingerstache, Etsy +1 organic squid Thundercats Neutra yr. Chia skateboard lomo next level leggings YOLO. Cornhole sartorial church-key pour-over fixie, VHS Shoreditch four loko jean shorts. Viral umami Marfa chillwave.
+							a.btn.btn--primary(href="https://www.facebook.com/rubentertainment", target="_top") Follow RUB Entertainment
+						.l-portfolio--rightimage
+							.image
+								img(src="public/img/fruitvale.png")
+					.l-portfolio--media
+						.l-portfolio--center
+							h1 RUB Promotional Video Montage
+							p Mustache you probably haven't heard of them ennui messenger bag leggings salvia, authentic cardigan. Portland shabby chic PBR salvia mlkshk pug lo-fi. Tattooed aesthetic High Life chia gluten-free, tofu Wes Anderson wayfarers flexitarian pork belly pour-over Banksy street art. Farm-to-table Marfa fingerstache, Etsy +1 organic squid Thundercats Neutra yr. Chia skateboard lomo next level leggings 
+							iframe(width="640", height="480", src="//www.youtube.com/embed/37PSX0UCOUM?rel=0", frameborder="0", allowfullscreen)
 		
 		section#resume
 			.l-resume
@@ -86,14 +111,16 @@ html
 						.l-resume--title
 							h1 R&eacute;sum&eacute; 
 						.l-resume--download
-							button.btn.btn--primary 
+							a.btn.btn--primary(href="public/files/resume_jordanfine.pdf", target="_blank")
 								i.icon-download 
 								| Download
 					.l-resume--column
 						.l-resume--education
 							h1 Education
 							h4
-								span.major BS in Digital Arts &amp; Sciences Engineering 
+								span.major BS in Computer Science Engineering 
+								br
+								span.focus with a focus in Digital Arts &amp; Sciences Engineering 
 								br
 								span.minor Minor in Mass Communications
 								br
@@ -103,21 +130,31 @@ html
 						.l-resume--tech
 							h1 Tech Experience
 							h4
-								span Front End Developer
+								span.company Gather 
+								span.location - Atlanta, GA
 								br
-								|	Gather | Atlanta, GA
+								span.job Front End Web Developer &amp; Designer
 								br
-								|	May 2013 - August 2013
+								|	May 2013 - August 2013, October 2013 - Present
 							h4
-								span Web Developer
+								span.company TapShield 
+								span.location - Gainesville, FL
 								br
-								|	Department of Facilites Planning &amp; Construction | Gainesville, FL
+								span.job Front End Web Developer
 								br
-								|	November 2012 - Present
+								|	August 2013 - October 2013
 							h4
-								span Software Developer Intern
+								span.company Department of Facilites Planning &amp; Construction 
+								span.location - Gainesville, FL
 								br
-								|	SpareFoot.com | Austin, TX
+								span.job Web Developer &amp; Designer
+								br
+								|	November 2012 - May 2013
+							h4
+								span.company SpareFoot
+								span.location - Austin, TX
+								br
+								span.job Web Developer &amp; Designer
 								br
 								|	May 2012 - August 2012
 						.l-resume--design
@@ -151,19 +188,15 @@ html
 								|	June 2011 - August 2011
 						.l-resume--skills
 							h1 Skills
+							h3 Languages &amp; Tools
 							p.
-								HTML, CSS, Javascript, PHP, Java, JQuery, Coffeescript, AngularJS, SASS, Stylus, Jade, Grunt, Processing, Digital Photography, Adobe Illustrator, 
-								Adobe Photoshop, Adobe Premiere Pro, Adobe InDesign, Autodesk Maya, Microsoft Office, Event Planning, Trumpet
-						.l-resume--projects
-							h1 Current Projects
-							h4
-								span Teaching myself more AngularJS and Node.js
-								br
-								| Never stop learning, even when school's out.
-							h4
-								span Playing with some APIs
-								br
-								|	More to be announced
+								HTML5, CSS3, Javascript/Coffeescript, jQuery, AngularJs, Jade/HAML, Stylus/LESS/SASS, Grunt, RequireJS, Java, Git, MATLAB, Processing, Windows, Mac OS X, Linux
+							h3 UX &amp; Design
+							p.
+								Balsamiq Wireframes, Pilot Testing, User Studies, Interface Design, User Research, Photoshop, Illustrator, Fireworks, InDesign, Premiere Pro, Maya
+							h3 Other
+							p.
+								Trumpet, Event Planning, Social Media, Digital &amp; Film Photography
 
 								
 		section#connect
