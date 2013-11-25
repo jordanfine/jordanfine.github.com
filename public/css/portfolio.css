@@ -112,7 +112,7 @@ footer h3{font-weight:200}
 .l-about--someimage{display:inline;float:left;overflow:hidden;width:540px;margin:0 10px;*width:540px -correction;*margin:0 10px -correction;*zoom:1;}
 .l-about--someimage:before,.l-about--someimage:after{content:"";display:table}
 .l-about--someimage:after{clear:both}
-.l-about--someimage .image{padding-top:175px;}
+.l-about--someimage .image{padding-top:200px;}
 .l-about--someimage .image img{width:100%}
 .l-about--copy{display:inline;float:left;overflow:hidden;width:380px;margin:0 10px;*width:380px -correction;*margin:0 10px -correction;*zoom:1;float:right;color:#fff;padding:50px 0;}
 .l-about--copy:before,.l-about--copy:after{content:"";display:table}
