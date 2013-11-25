@@ -101,7 +101,7 @@ footer h3{font-weight:200}
 .l-splash--nav .nav ul li a:hover{color:#2c3e50}
 .l-splash--tagline{text-align:center;color:#fff;display:table-cell;vertical-align:middle;min-height:500px;margin:0 auto;width:960px;padding-top:100px;height:500px;}
 .l-splash--tagline .profile{padding:50px 0;}
-.l-splash--tagline .profile .profile--image{position:relative;width:150px;height:150px;margin:0 auto;-webkit-border-radius:150px;border-radius:150px;background:url("../img/profile.png");-webkit-background-size:150px;-moz-background-size:150px;background-size:150px;}
+.l-splash--tagline .profile .profile--image{position:relative;width:150px;height:150px;margin:0 auto;-webkit-border-radius:150px;border-radius:150px;-webkit-box-shadow:0 0 15px -5px #000;box-shadow:0 0 15px -5px #000;background:url("../img/profile.png");-webkit-background-size:150px;-moz-background-size:150px;background-size:150px;}
 .l-splash--tagline .profile .profile--image:hover{background:url("../img/profile-pug.png");-webkit-background-size:150px;-moz-background-size:150px;background-size:150px}
 .l-splash--tagline .profile .profile--image span{position:absolute;top:64px;left:0;width:100%;font-size:24px;text-align:center}
 .l-splash--tagline .tagline h1{font-weight:100}
@@ -112,12 +112,15 @@ footer h3{font-weight:200}
 .l-about--someimage{display:inline;float:left;overflow:hidden;width:540px;margin:0 10px;*width:540px -correction;*margin:0 10px -correction;*zoom:1;}
 .l-about--someimage:before,.l-about--someimage:after{content:"";display:table}
 .l-about--someimage:after{clear:both}
+.l-about--someimage .image{padding-top:175px;}
+.l-about--someimage .image img{width:100%}
 .l-about--copy{display:inline;float:left;overflow:hidden;width:380px;margin:0 10px;*width:380px -correction;*margin:0 10px -correction;*zoom:1;float:right;color:#fff;padding:50px 0;}
 .l-about--copy:before,.l-about--copy:after{content:"";display:table}
 .l-about--copy:after{clear:both}
 .l-about--copy h1{font-size:4em;font-weight:600}
 .l-about--copy p{font-weight:300}
-.l-portfolio{padding:50px 0;background:#2980b9;width:100%}
+.l-portfolio{padding:50px 0;background:#2980b9;width:100%;}
+.l-portfolio a.btn{margin-top:15px}
 .l-portfolio--title{display:inline;float:left;overflow:hidden;width:940px;margin:0 10px;*width:940px -correction;*margin:0 10px -correction;}
 .l-portfolio--title h1{color:#fff;font-size:4em;font-weight:600;}
 .l-portfolio--title h1 span{font-weight:200}
