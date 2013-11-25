@@ -1,17 +1,31 @@
 section > div
-	//@extend .fluid-container
-	width: 100%
-	margin: 0 auto
-	overflow: hidden
+	@extend .fluid-container
+
 
 section
 	&#splash
 		background: $blue
+
+		div > .wrapper
+			background: $blue
 	&#about
 		background: $red
+
+		div > .wrapper
+			background:$red
 	&#portfolio
 		background: $blueDark
+
+		div > .wrapper
+			background: $blueDark
 	&#resume
 		background: $gray
+
+		div > .wrapper
+			background: $gray
+
 	&#connect
 		background: $blueDarker
+
+		div > .wrapper
+			background: $blueDarker
