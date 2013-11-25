@@ -85,7 +85,7 @@ section#connect{background:#2c3e50}
 .l-header__inner .nav{float:right;margin-right:20px;}
 .l-header__inner .nav ul{list-style:none;}
 .l-header__inner .nav ul li{float:left;padding:0 20px}
-footer{background:#2c3e50;color:#ecf0f2;padding:20px;}
+footer{width:100%;background:#2c3e50;color:#ecf0f2;padding:20px;}
 footer h3{font-weight:200}
 .footer-madein{float:left;}
 .footer-madein i{color:#e74c3c}
@@ -120,7 +120,7 @@ footer h3{font-weight:200}
 .l-about--copy:after{clear:both}
 .l-about--copy h1{font-size:4em;font-weight:600}
 .l-about--copy p{font-weight:300}
-.l-portfolio{padding:50px 0;background:#2980b9;width:100%;}
+.l-portfolio{padding:50px 0;padding-right:20px;background:#2980b9;}
 .l-portfolio a.btn{margin-top:15px}
 .l-portfolio--title{display:inline;float:left;overflow:hidden;width:940px;margin:0 10px;*width:940px -correction;*margin:0 10px -correction;}
 .l-portfolio--title h1{color:#fff;font-size:4em;font-weight:600;}
@@ -164,7 +164,7 @@ footer h3{font-weight:200}
 .l-portfolio--clue h1{font-size:4em;font-weight:600;}
 .l-portfolio--clue h1 span{font-weight:200}
 .l-portfolio--clue p{font-weight:300}
-.l-resume{height:1000px;background:#ecf0f2}
+.l-resume{height:1000px;padding-right:20px;background:#ecf0f2}
 .l-resume--title-bar{display:inline;float:left;overflow:hidden;width:940px;margin:0 10px;*width:940px -correction;*margin:0 10px -correction;}
 .l-resume--title-bar .l-resume--title{vertical-align:middle;display:inline-block;}
 .l-resume--title-bar .l-resume--title h1{color:#2c3e50;font-size:4em;font-weight:700;float:left}
@@ -177,7 +177,7 @@ footer h3{font-weight:200}
 .l-resume--column h4 .company{font-weight:600}
 .l-resume--column h4 .job{font-weight:500;font-style:italic}
 .l-resume--column p{font-weight:300}
-.l-connect{padding:50px 0;background:#2c3e50}
+.l-connect{padding:50px 0;padding-right:20px;background:#2c3e50}
 .l-connect--title{display:inline;float:left;overflow:hidden;width:940px;margin:0 10px;*width:940px -correction;*margin:0 10px -correction;text-align:center;margin-top:50px;}
 .l-connect--title h1{color:#ecf0f2;font-size:4em;font-weight:600}
 .l-connect--links{display:inline;float:left;overflow:hidden;width:940px;margin:0 10px;*width:940px -correction;*margin:0 10px -correction;margin-top:50px;}
