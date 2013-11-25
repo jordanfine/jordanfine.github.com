@@ -120,7 +120,7 @@ footer h3{font-weight:200}
 .l-about--copy:after{clear:both}
 .l-about--copy h1{font-size:4em;font-weight:600}
 .l-about--copy p{font-weight:300}
-.l-portfolio{padding:50px 0;padding-right:20px;background:#2980b9;}
+.l-portfolio{padding:50px 20px;background:#2980b9;}
 .l-portfolio a.btn{margin-top:15px}
 .l-portfolio--title{display:inline;float:left;overflow:hidden;width:940px;margin:0 10px;*width:940px -correction;*margin:0 10px -correction;}
 .l-portfolio--title h1{color:#fff;font-size:4em;font-weight:600;}
@@ -177,7 +177,7 @@ footer h3{font-weight:200}
 .l-resume--column h4 .company{font-weight:600}
 .l-resume--column h4 .job{font-weight:500;font-style:italic}
 .l-resume--column p{font-weight:300}
-.l-connect{padding:50px 0;padding-right:20px;background:#2c3e50}
+.l-connect{padding:50px 20px;background:#2c3e50}
 .l-connect--title{display:inline;float:left;overflow:hidden;width:940px;margin:0 10px;*width:940px -correction;*margin:0 10px -correction;text-align:center;margin-top:50px;}
 .l-connect--title h1{color:#ecf0f2;font-size:4em;font-weight:600}
 .l-connect--links{display:inline;float:left;overflow:hidden;width:940px;margin:0 10px;*width:940px -correction;*margin:0 10px -correction;margin-top:50px;}
